@@ -1,0 +1,16 @@
+
+	<meta name="author" content="Aeron Glemann (http://www.electricprism.com/aeron/)" />
+	<link rel="stylesheet" type="text/css" href="slideshows/css/slideshow.css" media="screen" />
+	<script type="text/javascript" src="slideshows/js/mootools.js"></script>
+	<script type="text/javascript" src="slideshows/js/slideshow.js"></script>
+	<script type="text/javascript" src="slideshows/js/slideshow.kenburns.js"></script>
+	<script type="text/javascript">		
+	//<![CDATA[
+	  window.addEvent('domready', function(){
+	    var data = ['1.jpg', '2.jpg', '3.jpg'];
+	    var myShow = new Slideshow.KenBurns('show', data, {controller: false, delay: 5000, duration: 2000,  height: 200, hu: 'slideshows/index/', thumbnails: false, width: 400});
+	  });
+	//]]>
+	</script>
+
+  <div id="show" class="slideshow"></div>
